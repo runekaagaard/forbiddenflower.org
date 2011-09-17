@@ -1,0 +1,12 @@
+A blind Prince leaves his father’s kingdom to travel throughout the world on his
+quest for the mysterious forbidden flower.
+
+He has been well trained by his private teacher, the wise man, in how to use his
+four remaining senses to an extent that they nearly replace his lack of sight.
+But despite his almost psychic abilities the prince is inexperienced,
+good of heart and blind as a bat.
+
+A cunning thief, a princess of ice and the unsettling voice of distrust are
+among the unusual characters who will challenge and shake the existance of the
+blind Prince during this epic journey. And lead him to a final unexpected
+encounter, that might change everything....

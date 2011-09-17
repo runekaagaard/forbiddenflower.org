@@ -11,13 +11,14 @@ h1, h2, h3
 
 h1
   color: #C20000
-  font-size: 1.7
+  font-size: 2.2em
   line-height: 1.636em
   margin: 0
 
 h2
+  font-size: 1.6em
   color: #2786C2
-  margin: 1em 0
+  margin: 0 0 1em 0
 
 p
   font-size: 1.04em
@@ -25,18 +26,22 @@ p
 
 h3
   color: black
+  margin: 0 0 0.5em 0
 
-aside
-  h1
-    color: black
-    font-size: 1.4em
-    line-height: 1em
-    padding: 0
-    margin: 0
+header
+  margin-top: 8px
+  margin-bottom: 16px
+  font-family: 'Reenie Beanie', cursive
+  font-weight: 400
 
-  p
-    padding: 0
-    margin: 0
+  .title
+    line-height: 20px
+    font-size: 40px
+    color: #0846D1
+
+  .description
+    font-size: 20px
+    color: #FC0636
 
 article
   margin-top: 8px
@@ -45,9 +50,8 @@ article
   line-height: 1.3em
 
   li
-    list-style: disc
+    list-style: circle
     list-style-position: inside
-    text-indent: -20px
 
 nav
   color: #2A5383
@@ -65,8 +69,8 @@ nav
       border-bottom: 1px solid grey
       a
         text-decoration: none
-        color: #424242
+        color: #424242 !important
         &:hover
-          color: #850101
+          color: #850101 !important
       &.active a
-        color: #850101
+        color: #850101 !important
