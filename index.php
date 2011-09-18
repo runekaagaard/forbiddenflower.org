@@ -22,6 +22,10 @@ $content = file_get_contents($menu[$active_menu_item][1]);
   <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" >
   <meta charset="utf-8">
 
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
   <title>Fairytale of the Forbidden Flower</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
@@ -54,28 +58,30 @@ $content = file_get_contents($menu[$active_menu_item][1]);
 
     <link href='http://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css'>
 </head>
+
 <body><div class="container"><div class="row">
 
-  <header>
-    <span class="title">Fairytale of the Forbidden Flower</span><br />
-    <span class="description">A magical concert fairytale.</span>
-  </header>
-
-  <h1><?=$menu[$active_menu_item][0]?></h1>
-
-  <div class="col_8 clearleft"><article>
-    <?=$content?>
-  </div></article>
-
-  <div class="col_4 omega">
-    <nav><ul>
+  <div class="col_4 clearleft"><nav><ul>
      <?foreach($menu as $name => $item):?>
         <li<?=$active_menu_item==$name ? ' class="active"' : ''?>>
           <a href="<?=$item[2]?>" title="<?=$item[0]?>"><?=$item[0]?></a>
         </li>
      <?endforeach?>
-    </ul></nav>
+  </ul></nav></div>
 
+  
+  
+  <div class="col_8 omega">
+
+    <header>
+      <span class="title">Fairytale of the Forbidden Flower</span><br />
+      <span class="description">A magical concert fairytale.</span>
+    </header>
+    
+    <h1><?=$menu[$active_menu_item][0]?></h1>
+    <article>
+      <?=$content?>
+    </article>
   </div>
 
 </div></div></body>

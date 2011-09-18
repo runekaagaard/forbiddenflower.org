@@ -1,5 +1,4 @@
 body {
-  background: #f9fafe url("../images/flower-background.jpg") no-repeat top right;
   font-family: Garamond, Arial, Verdana, sans-serif;
   font-size: 100%;
   margin: 0; }
@@ -50,10 +49,13 @@ article {
     list-style: circle;
     list-style-position: inside; }
 
+.container {
+  background: #f9fafe url("../images/flower-background.jpg") no-repeat top left; }
+
 nav {
   color: #2a5383;
   font-weight: bolder;
-  margin: 220px 0 0 0; }
+  margin: 266px 0 0 0; }
   nav ul {
     list-style: none; }
     nav ul li {
